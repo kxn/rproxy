@@ -1,0 +1,14 @@
+global:
+  client: true
+  logfile:
+  errfile:
+
+http:
+  listen: "127.0.0.1:80,10.5.35.179:80"
+
+https:
+  listen: ":443"
+
+client:
+  rules: hosts.json
+  passthrough: true
